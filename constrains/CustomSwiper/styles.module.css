@@ -17,7 +17,7 @@
 
 .swiperWrapper {
   display: flex;
-  padding-left: 30vw;
+  padding-left: 25vw;
   align-items: center;
   height: 100%;
 }
@@ -54,8 +54,8 @@
 }
 
 .prevButton {
-  left:15%;
+  left: 12.5%;
 }
 .nextButton {
-  right: 15%;
+  right: 12.5%;
 }
