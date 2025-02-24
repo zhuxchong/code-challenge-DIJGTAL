@@ -1,4 +1,4 @@
-.constrains-Carousel-description {
+.components-Summary-description {
   width: calc(100vw * 18 / 100);
   transition: transform 0.3s ease 0.1s;
   transition: opacity ease 0.5s;
@@ -16,7 +16,7 @@
   animation-delay: 0.3s; /* 延迟 0.1s 触发动画 */
 }
 
-.constrains-Carousel-icon {
+.components-Summary-icon {
   padding-bottom: 24px;
 }
 @keyframes fadeIn {

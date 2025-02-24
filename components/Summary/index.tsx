@@ -4,11 +4,11 @@ import "./styles.css";
 
 const Summary = (props: { i: number }) => {
   return (
-    <div className="constrains-Carousel-description">
+    <div className="components-Summary-description">
       <Image
         src={Icon}
         alt={`Icon ${props.i + 1}`}
-        className="constrains-Carousel-icon"
+        className="components-Summary-icon"
       />
       Lorem ipsum dolor sit amet consectetur. Placerat interdum mollis dui
       vitae.
