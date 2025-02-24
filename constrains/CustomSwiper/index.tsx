@@ -26,7 +26,7 @@ export default function CustomSwiper() {
 
   const offsetLeft = 64;
   const offsetRight = 40;
-  const rule1 = 680;
+  const rule1 = 280;
   const rule2 = 180;
   const [currentIndex, setCurrentIndex] = useState(0);
   const [translateX, setTranslateX] = useState(
