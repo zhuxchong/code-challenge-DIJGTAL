@@ -73,8 +73,8 @@ const useMove = () => {
     "/aqib-talib-image.png",
   ];
 
-  const offsetLeft = 64;
-  const offsetRight = 42;
+  const offsetLeft = 65;
+  const offsetRight = 40;
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [translateX, setTranslateX] = useState(
