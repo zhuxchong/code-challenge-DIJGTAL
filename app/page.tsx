@@ -12,7 +12,8 @@ export default function Home() {
       <h1>Home Page</h1>
       <Link href="/carousel" style={{ fontSize: "20px", color: "#fff" }}>
         Go to Carousel / This version doesn’t use any libraries, and the drag
-        feature still needs some time to be implemented.
+        feature still needs some time to be implemented. (Update: Drag events
+        added and I am testing this, later I will make it responsive )
       </Link>
       <Link href="/swiper" style={{ fontSize: "20px", color: "#fff" }}>
         Go to Swiper / This version uses Swiper/React, but the animations aren’t
