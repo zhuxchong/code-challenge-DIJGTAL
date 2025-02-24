@@ -118,3 +118,10 @@
   position: relative;
   top: -4px;
 }
+@media all and (max-width: 767px) {
+  .components-PersonCard-wrapper {
+    width: 100%;
+
+    max-width: 300px;
+  }
+}

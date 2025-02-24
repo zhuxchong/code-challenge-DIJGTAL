@@ -27,3 +27,13 @@
     opacity: 1;
   }
 }
+@media all and (max-width: 767px) {
+  .components-Summary-description {
+    width: 100%;
+    max-width: unset;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    align-items: center;
+    margin-top: 32px;
+  }
+}

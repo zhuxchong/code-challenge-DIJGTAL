@@ -59,3 +59,14 @@
 .nextButton {
   right: 12.5%;
 }
+@media all and (max-width: 767px) {
+  .swiperWrapper {
+    padding-left: 20vw;
+  }
+  .swiperSlide {
+    flex-direction: column;
+    width: 63vw;
+  }
+  .swiperSlide :global(.components-PersonCard-wrapper) {
+  }
+}
