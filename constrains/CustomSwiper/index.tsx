@@ -5,42 +5,6 @@ import Bkg from "@/components/BkgTrapezoid";
 import Summary from "@/components/Summary";
 import { useDrags, useMove } from "./hooks";
 export default function CustomSwiper() {
-  // const nextSlide1 = (times: number) => {
-  //   const maxTimes = images.length - 1 - currentIndex;
-  //   const t = times > maxTimes ? maxTimes : times;
-  //   const nIndex = currentIndex + 1;
-  //   const nX = translateX.map((_, index) => {
-  //     if (index < nIndex) {
-  //       // const offset = nIndex - index;
-  //       return _ - offsetRight * t;
-  //     } else {
-  //       // const offset = index - nIndex;
-  //       return _ - offsetLeft * t;
-  //     }
-  //   });
-
-  //   setTranslateX(nX);
-  //   setCurrentIndex(currentIndex + t);
-  // };
-
-  // // 上一张
-  // const prevSlide1 = (times: number) => {
-  //   const t = times > currentIndex ? currentIndex : times;
-  //   const nIndex = currentIndex - 1;
-  //   const nX = translateX.map((_, index) => {
-  //     if (index <= nIndex) {
-  //       // const offset = nIndex - index;
-  //       return _ + offsetRight * t;
-  //     } else {
-  //       // const offset = index - nIndex;
-  //       return _ + offsetLeft * t;
-  //     }
-  //   });
-
-  //   setTranslateX(nX);
-  //   setCurrentIndex(currentIndex - t);
-  // };
-
   const { nextSlide, prevSlide, translateX, currentIndex, images } = useMove();
   const { handleDragStart, handleDragMove, handleDragEnd, translateXOffSet } =
     useDrags({
@@ -93,3 +57,38 @@ export default function CustomSwiper() {
     </div>
   );
 }
+// const nextSlide1 = (times: number) => {
+//   const maxTimes = images.length - 1 - currentIndex;
+//   const t = times > maxTimes ? maxTimes : times;
+//   const nIndex = currentIndex + 1;
+//   const nX = translateX.map((_, index) => {
+//     if (index < nIndex) {
+//       // const offset = nIndex - index;
+//       return _ - offsetRight * t;
+//     } else {
+//       // const offset = index - nIndex;
+//       return _ - offsetLeft * t;
+//     }
+//   });
+
+//   setTranslateX(nX);
+//   setCurrentIndex(currentIndex + t);
+// };
+
+// // 上一张
+// const prevSlide1 = (times: number) => {
+//   const t = times > currentIndex ? currentIndex : times;
+//   const nIndex = currentIndex - 1;
+//   const nX = translateX.map((_, index) => {
+//     if (index <= nIndex) {
+//       // const offset = nIndex - index;
+//       return _ + offsetRight * t;
+//     } else {
+//       // const offset = index - nIndex;
+//       return _ + offsetLeft * t;
+//     }
+//   });
+
+//   setTranslateX(nX);
+//   setCurrentIndex(currentIndex - t);
+// };
