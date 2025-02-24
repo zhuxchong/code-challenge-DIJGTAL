@@ -1,0 +1,61 @@
+.swiper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiperContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.swiperWrapper {
+  display: flex;
+  padding-left: 30vw;
+  align-items: center;
+  height: 100%;
+}
+
+.swiperSlide {
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+}
+
+.swiperSlide :global(.components-PersonCard-wrapper) {
+  transform: scale(0.8);
+  transition: transform 0.5s ease-in-out;
+}
+.active :global(.components-PersonCard-wrapper) {
+  transform: scale(1);
+}
+/* 左右按钮 */
+.prevButton,
+.nextButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.prevButton {
+  left:15%;
+}
+.nextButton {
+  right: 15%;
+}

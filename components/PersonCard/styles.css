@@ -1,0 +1,103 @@
+.components-PersonCard-wrapper {
+  height: 720px;
+  width: 400px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.components-PersonCard-card {
+  position: relative;
+  width: 376px;
+  height: 663px;
+
+  border-radius: 10px;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 8px 40px 23px rgba(0, 0, 0, 0.3), 0px 8px 21px rgba(0, 0, 0, 0.6);
+  background: #2d2e2c;
+}
+
+
+.components-PersonCard-background {
+  position: relative;
+  box-shadow: inset 0 0 0 4px #ffc246;
+
+  width: 100%;
+  height: 74%;
+  background-image: url("/aqib-talib-background.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  border-radius: 10px 10px 0 0;
+}
+.components-PersonCard-backgroundFade {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 0, 0, 0.95);
+  mix-blend-mode: multiply; 
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+  border-radius: 10px;
+}
+
+.components-PersonCard-personImageSign {
+  position: absolute;
+  top: 60px;
+  left: 50px;
+}
+
+/* 人物图片 */
+.components-PersonCard-person {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2; 
+}
+
+.components-PersonCard-personImage {
+  filter: grayscale(100%); 
+  width: 320px;
+  height: auto;
+}
+
+/* 文本区域 */
+.components-PersonCard-text {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2d2e2c;
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+
+.components-PersonCard-subtitle {
+  font-size: 14px;
+  line-height: 20px;
+  color: #000;
+  font-weight: bold;
+  background: linear-gradient(
+    90.02deg,
+    #ffc246 1.51%,
+    #fde566 54.1%,
+    #ffc246 99.78%
+  );
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  top: -4px;
+}

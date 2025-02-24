@@ -1,2 +1,3 @@
 # code-challenge-DIJGTAL
-This version is implemented using Swiper/React. I’m also trying to replicate the effect from the reference using pure JavaScript for a smoother experience. However, that would definitely take more than two hours, so I’ll upload it later.
+
+I’ve implemented two desktop versions, one using Swiper and the other with a custom carousel. There are still many details to refine, including responsiveness.
