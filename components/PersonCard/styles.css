@@ -53,6 +53,12 @@
   left: 50px;
 }
 
+.components-PersonCard-WBA {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
 /* 人物图片 */
 .components-PersonCard-person {
   position: absolute;
