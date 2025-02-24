@@ -28,15 +28,20 @@ const Card = () => {
               src={Man1} // 替换成人物图片路径
               alt="Floyd Mayweather"
               className={"components-PersonCard-personImage"}
+              fill
+              objectFit="contain"
+              // width={318}
+              // height={424}
+              priority
             />
           </div>
         </div>
         <div className={"components-PersonCard-subtitle"}>
-          LOREM IPSUM DOLOR
+          The best defensive boxer of all time
         </div>
 
         {/* 文本内容 */}
-        <div className={"components-PersonCard-text"}>Lorem Ipsum</div>
+        <div className={"components-PersonCard-text"}>FLOYD MAYWEATHER</div>
       </div>
     </div>
   );

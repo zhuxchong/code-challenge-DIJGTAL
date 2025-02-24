@@ -10,8 +10,8 @@ const Summary = (props: { i: number }) => {
         alt={`Icon ${props.i + 1}`}
         className="components-Summary-icon"
       />
-      Lorem ipsum dolor sit amet consectetur. Placerat interdum mollis dui
-      vitae.
+      Greatness respects greatness. That’s why I’m teaming up with this brand,
+      giving you a chance to be great.
     </div>
   );
 };

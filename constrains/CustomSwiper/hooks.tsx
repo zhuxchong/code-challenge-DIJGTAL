@@ -74,7 +74,7 @@ const useMove = () => {
   ];
 
   const offsetLeft = 64;
-  const offsetRight = 40;
+  const offsetRight = 42;
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [translateX, setTranslateX] = useState(
