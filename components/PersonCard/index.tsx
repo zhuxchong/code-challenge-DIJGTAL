@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 import "./styles.css";
 import Man1 from "@/public/floyd-mayweather-image.png";
