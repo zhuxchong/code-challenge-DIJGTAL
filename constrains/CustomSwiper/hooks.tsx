@@ -73,8 +73,8 @@ const useMove = () => {
     "/aqib-talib-image.png",
   ];
 
-  const offsetLeft = 65;
-  const offsetRight = 40;
+  const offsetLeft = 65; //need to adjust in different px // can add a monitor
+  const offsetRight = 35; //need to adjust in different px
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [translateX, setTranslateX] = useState(
