@@ -18,7 +18,7 @@ export default function CustomSwiper() {
     };
   };
   return (
-    <div className={styles.swiper}>
+    <div className={styles.swiper} id="carouselWrapper">
       <Bkg></Bkg>
       <div className={styles.swiperContainer}>
         <div
@@ -41,7 +41,7 @@ export default function CustomSwiper() {
                     : "none",
               }}
             >
-              <Card />
+              <Card index={index} />
               {index === currentIndex && <Summary i={index} />}
             </div>
           ))}

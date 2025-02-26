@@ -5,9 +5,9 @@ import Man1Sign from "@/public/floyd-mayweather-signature.png";
 import Logo from "@/public/Sports.png";
 // import Bkg from "@/public/aqib-talib-background.png";
 
-const Card = () => {
+const Card = ({ index }: { index: number }) => {
   return (
-    <div className={"components-PersonCard-wrapper"}>
+    <div className={"components-PersonCard-wrapper"} id={`personCard${index}`}>
       <div className="components-PersonCard-card">
         {/* 背景 */}
         <div className="components-PersonCard-background">
