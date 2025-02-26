@@ -16,7 +16,9 @@
   animation: fadeIn 0.5s ease-in-out forwards;
   animation-delay: 0.3s; /* 延迟 0.1s 触发动画 */
 }
-
+.components-Summary-description-hide {
+  display: none;
+}
 .components-Summary-icon {
   padding-bottom: 24px;
 }
@@ -38,5 +40,9 @@
     margin-top: 32px;
     font-size: 18px;
     line-height: 26px;
+  }
+  .components-Summary-description-hide {
+    display: block;
+    visibility: hidden;
   }
 }

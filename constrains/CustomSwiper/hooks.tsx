@@ -8,8 +8,10 @@ const useDrags = ({
   prevSlide: () => void;
   nextSlide: () => void;
 }) => {
-  const rule1 = 280;
-  const rule2 = 180;
+  const { width } = useWindowSize();
+
+  const rule1 = width && width < 768 ? 100 : 280;
+  const rule2 = width && width < 768 ? 100 : 180;
   const [translateXOffSet, setTranslateXOffset] = useState(0);
   const [dragging, setDragging] = useState(false);
   const [startX, setStartX] = useState(0);

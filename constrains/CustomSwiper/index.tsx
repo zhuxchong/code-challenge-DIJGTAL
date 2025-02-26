@@ -26,6 +26,9 @@ export default function CustomSwiper() {
           onMouseDown={handleDragStart}
           onMouseMove={handleDragMove}
           onMouseUp={handleDragEnd}
+          onTouchStart={handleDragStart}
+          onTouchMove={handleDragMove}
+          onTouchEnd={handleDragEnd}
         >
           {images.map((_, index) => (
             <div
@@ -42,7 +45,8 @@ export default function CustomSwiper() {
               }}
             >
               <Card index={index} />
-              {index === currentIndex && <Summary i={index} />}
+
+              <Summary i={index} currentIndex={currentIndex} />
             </div>
           ))}
         </div>

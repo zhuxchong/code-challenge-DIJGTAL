@@ -67,5 +67,7 @@
     flex-direction: column;
     width: 238px;
     min-width: unset;
+    justify-content: flex-start;
+    padding-top: 25vh;
   }
 }
