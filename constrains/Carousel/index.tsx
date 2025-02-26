@@ -85,7 +85,7 @@ const PrecisionSwiper = () => {
               }}
             >
               <div className="constrains-Carousel-slide-inner">
-                <Card />
+                <Card index={i} />
                 {idx === i && (
                   <div className="constrains-Carousel-description">
                     <Image

@@ -134,4 +134,10 @@
     line-height: 20px;
     font-size: 14px;
   }
+  .components-PersonCard-personImageSign {
+    width: 60%;
+    height: auto;
+    top: 28px;
+    left: 28px;
+  }
 }
